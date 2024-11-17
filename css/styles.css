@@ -357,8 +357,11 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-link:hover,
-:focus {
+.gallery-link:hover {
+  background-color: #404bbf;
+}
+
+.gallery-link:focus {
   background-color: #404bbf;
 }
 
