@@ -458,7 +458,11 @@ ul {
 }
 
 .footer-container {
+  align-items: baseline;
 }
+.footer-conteiner-logo {
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -482,6 +486,11 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-conteiner-svg {
+  width: 208px;
 }
 
 /* #endregion */
