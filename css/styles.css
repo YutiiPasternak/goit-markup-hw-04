@@ -458,9 +458,9 @@ ul {
 }
 
 .footer-container {
+  display: flex;
   align-items: baseline;
-}
-.footer-conteiner-logo {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -489,8 +489,28 @@ ul {
   margin-right: 120px;
 }
 
-.footer-conteiner-svg {
+.footer-container-svg {
   width: 208px;
+}
+.footer-container-svg-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-svg-list {
+  display: flex;
+}
+
+.footer-svg-item {
+}
+
+.footer-svg-link {
+}
+
+.icon-svg-footer {
 }
 
 /* #endregion */
